@@ -27,10 +27,10 @@ And there will be a path variable. Add this line.
 
 %CATALINA_HOME%\bin
 
-You can configure the hibernate.cfg file for your settings of database and password.
-But if you have a Oracle 9, you can just create a user with credentials:
-username - satyaki
-password - qwerty
+You can configure the hibernate.cfg file for your settings of database and password. <br />
+But if you have a Oracle 9, you can just create a user with credentials: <br />
+username - satyaki <br />
+password - qwerty <br />
 
 Fire up the CMD.
 Type startup.bat
