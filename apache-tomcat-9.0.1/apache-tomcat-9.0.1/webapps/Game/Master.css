@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+#image {
+	position: absolute;
+	top: 190px;
+	left: 350px;
+}
+
+#tab {
+	position: absolute;
+	top: 200px;
+	left: 430px;
+}
+
+button {
+	background: transparent;
+	height: 100px;
+	width: 100px;
+	border: hidden;
+}
+
+th:first-letter {
+	font-weight: bold;
+	font-size: 60px;
+	color: blue;
+}
+
+#player {
+	position: absolute;
+	bottom: 400px;
+	left: 30px;
+	font-size: 40px;
+}
+
+#player1 {
+	position: absolute;
+	bottom: 400px;
+	left: 210px;
+	font-size: 40px;
+}
+
+#img1 {
+	position: absolute;
+	top: 250px;
+	left: 450px;
+}
+
+#img2 {
+	position: absolute;
+	top: 330px;
+	left: 450px;
+}
+
+#a {
+	position: absolute;
+	color: red;
+	top: 200px;
+	left: 450px;
+}
+
+#PlayAg {
+	background: transparent;
+	height: 50px;
+	width: 50px;
+	border: purple;
+}

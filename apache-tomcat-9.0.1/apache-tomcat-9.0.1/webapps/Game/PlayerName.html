@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Name</title>
+
+<link rel="stylesheet" href="Master.css">
+
+<script type="text/javascript">
+function doFirst()
+{
+	var x = document.getElementById('canvas');
+	canvas = x.getContext('2d');
+	
+	canvas.shadowOffsetX = 4;
+	canvas.shadowOffsetY = 4;
+	canvas.shadowBlur = 4;
+	canvas.shadowColor = 'rgba(0,255,0,.5)';
+	
+	canvas.font = "bold 46px Tahoma";
+	canvas.textAlign = "end";
+	canvas.fillText("Fill in Your Names", 900 , 70);
+}
+window.addEventListener("load",doFirst,false);
+</script>
+</head>
+<body bgcolor="yellow">
+
+	<canvas id="canvas" width="1000" height="1000">
+</canvas>
+
+	<form action="Abcd" method="post">
+
+		<div id="a">
+			Player 1:<input type="text" name="p1" required><br>
+			<br> Player 2:<input type="text" name="p2" required><br>
+			<br> <input type="submit" value="Play">
+		</div>
+
+	</form>
+</body>
+</html>
